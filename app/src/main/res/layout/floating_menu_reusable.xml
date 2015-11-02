@@ -18,21 +18,45 @@ fab:menu_labels_ellipsize="end"
 fab:menu_labels_singleLine="true"
 fab:menu_fab_size="mini"
 fab:menu_openDirection="down"
-android:layout_gravity="center_horizontal|bottom">
+    android:layout_gravity="bottom|center_horizontal">
 
-<com.github.clans.fab.FloatingActionButton
-android:id="@+id/fab1"
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-fab:fab_size="mini"
-fab:fab_label="Menu item 1" />
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/lppview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        fab:fab_size="mini"
+        fab:fab_label="Loading Pop Point" />
 
-<com.github.clans.fab.FloatingActionButton
-android:id="@+id/fab2"
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-fab:fab_size="mini"
-fab:fab_label="Menu item 2" />
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/ciview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        fab:fab_size="mini"
+        fab:fab_label="Circular Images" />
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/fab1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        fab:fab_size="mini"
+        fab:fab_label="Page Two" />
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/fab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        fab:fab_size="mini"
+        fab:fab_label="Page One" />
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/fab3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        fab:fab_size="mini"
+        fab:fab_label="Main Page" />
+
 </com.github.clans.fab.FloatingActionMenu>
+
+
 
 </FrameLayout>
