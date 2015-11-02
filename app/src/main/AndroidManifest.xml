@@ -24,6 +24,16 @@
             android:name=".ViewTwo"
             android:label="@string/title_activity_view_two" >
         </activity>
+        <activity
+            android:name=".NelsonPopPoint"
+            android:label="@string/title_activity_nelson_pop_point"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".JobCircularImage"
+            android:label="@string/title_activity_job_circular_image"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>

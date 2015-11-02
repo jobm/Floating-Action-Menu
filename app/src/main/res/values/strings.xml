@@ -5,4 +5,6 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_view_one">View One</string>
     <string name="title_activity_view_two">View Two</string>
+    <string name="title_activity_nelson_pop_point">NelsonPopPoint</string>
+    <string name="title_activity_job_circular_image">JobCircularImage</string>
 </resources>
