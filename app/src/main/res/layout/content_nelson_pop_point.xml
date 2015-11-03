@@ -10,4 +10,25 @@
     tools:showIn="@layout/activity_nelson_pop_point"
     tools:context="com.job.floatingactionmenu.NelsonPopPoint">
 
+
+
+    <com.alexzh.circleimageview.CircleImageView
+        android:id="@+id/imageView"
+        android:layout_width="192dp"
+        android:layout_height="192dp"
+        android:clickable="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        app:view_backgroundColor="@color/colorPrimary"
+        app:view_shadowRadius="4dp"
+        app:view_shadowDx="2dp"
+        app:view_shadowDy="0dp"
+        app:view_shadowColor="@color/grey"
+        app:view_borderWidth="4dp"
+        app:view_selectedColor="@color/blue"
+        app:view_borderColor="@android:color/darker_gray"/>
+
+
+
 </RelativeLayout>
